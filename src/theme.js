@@ -1,6 +1,8 @@
 const colors = {
-  primary: '#FF1493',
-  secondary: '#b9b9b9'
+  primary: '#18449B',
+  secondary: '#b9b9b9',
+  facebook: '#3B5998',
+  gmail: '#c71610'
 }
 const fonts = {
   hairline: 'Lato-Hairline',

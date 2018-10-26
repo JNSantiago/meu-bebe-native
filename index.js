@@ -9,6 +9,8 @@ import rootReducer from './src/reducers'
 import thunk from 'redux-thunk'
 const store = createStore(rootReducer, applyMiddleware(thunk))
 
+console.disableYellowBox = true;
+
 // App
 const ReduxApp = () => (
   <Provider store={store}>
